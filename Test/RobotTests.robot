@@ -3,7 +3,7 @@
 Library    SeleniumLibrary
 *** Test Cases ***
 User Can Complete a Purchase
-    Open Browser    https://github.com/DrBakerCat/Project    headlesschrome
+    Open Browser    https://github.com/DrBakerCat/Project/swag_labs.html    headlesschrome
     Maximize Browser Window
     Wait Until Element Is Visible    id=username
     Sleep    1s
