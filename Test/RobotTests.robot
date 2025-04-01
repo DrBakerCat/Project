@@ -1,9 +1,9 @@
-# Created by gusta at 3/26/2025
+
 *** Settings ***
 Library    SeleniumLibrary
 *** Test Cases ***
 User Can Complete a Purchase
-    Open Browser    https://github.com/DrBakerCat/Project    Chrome
+    Open Browser    https://github.com/DrBakerCat/Project    headlesschrome
     Maximize Browser Window
     Wait Until Element Is Visible    id=username
     Sleep    1s
